@@ -12,8 +12,8 @@ One of the key decay channels is **H → ZZ → 4ℓ** (where ℓ = e, μ).
 
 This project reproduces the main elements of that analysis using open data:
 
-- **Level 1–3**: Simplified replications based on the [CMS Open Data Higgs to four leptons example repository](https://github.com/cms-opendata-analyses/HiggsToFourLeptons2011)  
-- **Level 4**: My own contribution — scaling the analysis to larger datasets using **CernVM** and distributed processing on **Google Cloud Platform (GCP)**
+- **Level 1–3**: Simplified replications based on the [CMS Open Data Higgs to four leptons example using 2011-2012 data](https://opendata.cern.ch/record/5500)  
+- **Level 4**: Also present in the example repository, but my contribution extends it by **parallelizing the processing** across multiple **CernVM instances** on **Google Cloud Platform (GCP)**, enabling more efficient large-scale analysis.
 
 The replication is inspired by the published CMS analysis:  
 > CMS Collaboration, *Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC*,  
@@ -23,14 +23,13 @@ The replication is inspired by the published CMS analysis:
 
 ## Repository structure
 
-- `docs/` – Thesis PDF, slides, and figures  
-- `src/` – C++ macros, CMSSW analyzers, and Python config files  
-- `datasets/` – JSON lumi masks, dataset lists, indexfiles  
-- `scripts/` – Utilities for fetching data, running analyses, merging ROOT files  
+- `docs/` – Thesis PDF and slides  
+- `level_1/` – Instructions for Level 1  
+- `level_2/` – Instructions for Level 2  
+- `level_3/` – Instructions for Level 3  
+- `level_4/` – Instructions for Level 4 
 - `cloud/` – Contextualization and helper scripts for CernVM + GCP  
-- `results/` – Small ROOT outputs, plots, reports  
-
-> Each level (1–4) will eventually have its own README with specific instructions.
+- `result_plots/` – Small ROOT outputs, plots, reports  
 
 ---
 
@@ -43,9 +42,9 @@ Raw data are **not** stored in this repository. Scripts and dataset lists are pr
 
 ## Credits
 
-- Levels 1–3 are adapted from the official CMS Open Data analysis example:  
-  [cms-opendata-analyses/HiggsToFourLeptons2011](https://github.com/cms-opendata-analyses/HiggsToFourLeptons2011)  
-- My work focuses on **extending the analysis to Level 4**, introducing scalable distributed processing with CernVM and Google Cloud.  
+- Levels 1–3 and the base structure of Level 4 are adapted from the official CMS Open Data example:  
+  [Higgs-to-four-lepton analysis example using 2011-2012 data](https://opendata.cern.ch/record/5500).  
+- My contribution is the **parallelization of Level 4** by distributing jobs across multiple VMs on Google Cloud. 
 
 ---
 
