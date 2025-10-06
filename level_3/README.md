@@ -20,9 +20,9 @@ Although validation steps (Test & Validation) can be performed, they were skippe
 
 ## Step 1 — Setting up the environment
 
-> ⚠️ **Important:**  
-> All commands must be executed **inside the CMS Shell** within the **CMS Open Data Virtual Machine**.  
-> Running them in a standard terminal will not work because required environment variables and dependencies will be missing.
+> [!IMPORTANT] 
+> Run all commands and CMSSW jobs **inside the CMS Shell** (`cmsenv`) within the **CMS Open Data VM**.  
+> A regular terminal will miss the environment and dependencies.
 
 ```bash
 # Navigate to CMSSW environment
@@ -134,6 +134,7 @@ This level demonstrates that independent researchers and students can fully **re
 
 ### Next step
 Continue to [Level 4 →](../level_4/README.md), where the analysis is parallelized and distributed across multiple **CernVM** instances on **Google Cloud Platform (GCP)**.
+
 **OR**
-Continue to [Level 3 Code Explanation →](./level_3_code.md), where there’s a detailed explanation of the **Python** and **C++** files used in this stage.  
-The same code will be reused in **Level 4**, making this section especially useful for understanding the structure and logic behind the analysis workflow.
+
+Continue to [Level 3 Code Explanation →](./level_3_code.md), where there’s a detailed explanation of the **Python** and **C++** files used in this stage. The same code will be reused in **Level 4**, making this section especially useful for understanding the structure and logic behind the analysis workflow.

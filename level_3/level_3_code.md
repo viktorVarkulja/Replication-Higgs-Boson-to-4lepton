@@ -3,7 +3,8 @@
 This document explains the **Python configuration files** and **C++ source files** used in **Level 3**.  
 It focuses on how raw CMS Open Data are read, filtered, and written to new ROOT files, and how those files are visualized.
 
-> ⚠️ **Important:** Run all commands and CMSSW jobs **inside the CMS Shell** (`cmsenv`) within the **CMS Open Data VM**.  
+> [!IMPORTANT] 
+> Run all commands and CMSSW jobs **inside the CMS Shell** (`cmsenv`) within the **CMS Open Data VM**.  
 > A regular terminal will miss the environment and dependencies.
 
 ---
@@ -81,7 +82,8 @@ process.source = cms.Source(
   - `DoubleMuParked2012C_10000_Higgs.root` — real data with one highlighted Higgs candidate.  
   - `Higgs4L1file.root` — reduced-statistics signal MC for quick checks.
 
-> 💡 **Tip:** The configs show **single-file** sources for speed. For larger studies, switch to **index lists** (`.txt`) with many files.
+> [!TIP] 
+> The configs show **single-file** sources for speed. For larger studies, switch to **index lists** (`.txt`) with many files.
 
 ---
 

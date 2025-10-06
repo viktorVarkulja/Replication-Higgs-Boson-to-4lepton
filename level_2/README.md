@@ -20,9 +20,9 @@ It ensures full compatibility with the original CMS analysis conditions.
 
 ## Step 1 — Setting up the environment
 
-> ⚠️ **Important:**  
-> All commands must be executed **inside the CMS Shell** within the **CMS Open Data Virtual Machine**.  
-> Running them in a standard terminal will not work because required environment variables and dependencies will be missing.
+> [!IMPORTANT] 
+> Run all commands and CMSSW jobs **inside the CMS Shell** (`cmsenv`) within the **CMS Open Data VM**.  
+> A regular terminal will miss the environment and dependencies.
 
 In the CMS VM open the CMS Shell :
 
