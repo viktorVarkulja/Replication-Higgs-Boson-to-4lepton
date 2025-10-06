@@ -79,15 +79,15 @@ Once executed, the `M4Lnormdatall.cc` macro performs all the key operations requ
 
 Simulated datasets are normalized using the standard luminosity–cross section relation:
 
-\[
+```math
 \omega = \frac{L \times \sigma \times SF}{N_{\text{events}}}
-\]
+```
 
 Where:
 - **L** — integrated luminosity (fb⁻¹)  
 - **σ** — theoretical cross section (pb)  
 - **SF** — scale factor (if applicable)  
-- **Nₑvents** — total number of generated events  
+- **N<sub>events</sub>** — total number of generated events  
 
 This scaling ensures that simulated samples match the expected event yields from real experimental conditions.  
 Experimental datasets (`DoubleMu`, `DoubleE`) are loaded **without scaling**, since they already represent measured counts.
@@ -107,7 +107,7 @@ The final diagram includes:
 - A CMS Open Data header and legend for clarity  
 
 <p align="center">
-  <img src="./mass4l_combine.png" alt="Reproduced 4-lepton invariant mass plot" width="600"/>
+  <img src="./mass4l_combine_1.png" alt="Reproduced 4-lepton invariant mass plot" width="600"/>
 </p>
 
 *Reproduced 4-lepton invariant mass distribution (H → ZZ → 4ℓ) showing the Higgs peak around 125 GeV.*
