@@ -18,7 +18,10 @@ Consequently, the Open Data plot contains **fewer statistics** and a less pronou
 
 ### Original CMS plot (Figure 1)
 
-![Original CMS plot](./original_diagram.png)
+
+<p align="center">
+  <img src="./original_diagram.png" alt="Original CMS plot" width="480"/>
+</p>
 
 *Distribution of the four-lepton invariant mass (H → ZZ → 4ℓ) from the CMS publication.*
 
@@ -26,7 +29,10 @@ Consequently, the Open Data plot contains **fewer statistics** and a less pronou
 
 ### Replicated Open Data plot (Figure 2)
 
-![Open Data plot](./mass4l_combine_1.png)
+
+<p align="center">
+  <img src="./mass4l_combine_1.png" alt="Open Data plot" width="480"/>
+</p>
 
 *Result obtained using Monte Carlo–based Open Data inputs.*
 
