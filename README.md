@@ -28,8 +28,7 @@ The replication is inspired by the published CMS analysis:
 - `level_2/` – Instructions for Level 2  
 - `level_3/` – Instructions for Level 3  
 - `level_4/` – Instructions for Level 4 
-- `cloud/` – Contextualization and helper scripts for CernVM + GCP  
-- `result_plots/` – Small ROOT outputs, plots, reports  
+- `cloud/` – Contextualization and helper scripts for CernVM + GCP   
 
 ---
 
