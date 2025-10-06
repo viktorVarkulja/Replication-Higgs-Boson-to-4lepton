@@ -174,8 +174,7 @@ process.source.skipEvents = cms.untracked.uint32(3 * 9894640)
 ...
 
 process.TFileService = cms.Service("TFileService",
-       fileName = cms.string('DoubleElectron_Run2011A-4.root')
-                                   )
+       fileName = cms.string('DoubleElectron_Run2011A-4.root'))
 ```
 
 ---
@@ -183,6 +182,7 @@ process.TFileService = cms.Service("TFileService",
 ## 8) Run analysis
 
 ```bash
+cd ~/CMSSW_5_3_32/src/Demo/DemoAnalyzer/
 cmsenv
 # for real data datasets
 nohup cmsRun demoanalyzer_cfg_level4data.py &> DoubleElectron_Run2011A-4.report &
@@ -241,5 +241,5 @@ gcloud compute routers delete nat-router --region=$(gcloud config get-value comp
 
 ### Next
 
-- Reuse **Level 3** code and macros.  
+- See potential future projects in [Level 4](./README.md).
 - See [Level 3 Code Explanation](../level_3/level_3_code_walkthrough.md) for details.
