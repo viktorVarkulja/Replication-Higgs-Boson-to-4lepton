@@ -23,7 +23,7 @@ The replication is inspired by the published CMS analysis:
 
 ## Repository structure
 
-- `docs/` – Thesis PDF and slides  
+- `docs/` – Thesis PDF and slides (in Serbian)
 - `level_1/` – Instructions for Level 1  
 - `level_2/` – Instructions for Level 2  
 - `level_3/` – Instructions for Level 3  
