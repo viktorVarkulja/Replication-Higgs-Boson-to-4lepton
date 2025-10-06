@@ -42,3 +42,9 @@ In the official CMS diagram, the **background contributions** are precisely mode
 Despite this, the Open Data plot still reveals a **characteristic bump around 125 GeV**, indicating the presence of the Higgs boson.
 
 This demonstrates that even with limited datasets and simplified methods, it is possible to reproduce the **approximate shape of the original result**.  
+
+---
+
+### Next step
+Continue to [Level 2 →](../level_2/README.md), where the analysis reproduces the **reference four-lepton mass plot** (*mass4l_combine*) using public ROOT files and the `M4Lnormdatall.cc` macro inside the CMS Open Data virtual environment.
+
