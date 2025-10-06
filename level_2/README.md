@@ -107,7 +107,7 @@ The final diagram includes:
 - A CMS Open Data header and legend for clarity  
 
 <p align="center">
-  <img src="./mass4l_combine.png" alt="Reproduced 4-lepton invariant mass plot" width="600"/>
+  <img src="./mass4l_combine_1.png" alt="Reproduced 4-lepton invariant mass plot" width="600"/>
 </p>
 
 *Reproduced 4-lepton invariant mass distribution (H → ZZ → 4ℓ) showing the Higgs peak around 125 GeV.*
