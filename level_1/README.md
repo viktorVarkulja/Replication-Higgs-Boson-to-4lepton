@@ -8,7 +8,7 @@ Both figures display the **invariant mass distribution of four leptons (4ℓ)**,
 In both cases, the center-of-mass energy is **7 TeV** and **8 TeV**, corresponding to the operational conditions of the **Large Hadron Collider (LHC)** during the 2011–2012 data-taking period.
 
 However, the **total integrated luminosity** differs:  
-- The original CMS publication (Figure 1) uses the **full dataset** collected in 2011–2012, approximately **5 fb⁻¹**.  
+- The original CMS publication (Figure 1) uses the **full dataset** collected in 2011–2012, approximately **10 fb⁻¹**.  
 - The **Open Data version** (Figure 2) uses a smaller and simplified subset of data with only partial signal simulation.
 
 Integrated luminosity measures the **total number of collisions**, and directly affects the number of detected events.  
