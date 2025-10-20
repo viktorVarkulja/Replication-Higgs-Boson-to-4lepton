@@ -44,9 +44,3 @@ Raw data are **not** stored in this repository. Scripts and dataset lists are pr
   [Higgs-to-four-lepton analysis example using 2011-2012 data](https://opendata.cern.ch/record/5500).  
 - My contribution is the **parallelization of Level 4** by distributing jobs across multiple VMs on Google Cloud. 
 
----
-
-## License
-
-- **Code**: MIT  
-- **Text and figures** (thesis, slides, plots): CC BY 4.0
